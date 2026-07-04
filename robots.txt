@@ -1,0 +1,12 @@
+# Barley Hair Transplant - Robots.txt
+# https://barley.jishaoshi.com
+
+User-agent: *
+Allow: /
+
+# Disallow backup and sensitive files
+Disallow: /index_original_backup.html
+Disallow: /000.html
+
+# Sitemap location
+Sitemap: https://barley.jishaoshi.com/sitemap.xml
