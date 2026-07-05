@@ -1254,6 +1254,8 @@ footer {
     
     .logo-text-mobile {
         display: inline;
+        white-space: nowrap;
+        font-size: 18px;
     }
     
     .hamburger {
@@ -1327,15 +1329,21 @@ footer {
     }
     
     .hero-slide {
-        height: 400px;
+        height: 450px;
+    }
+    
+    .hero-content {
+        padding: 0 20px;
     }
     
     .hero-content h2 {
-        font-size: 32px;
+        font-size: 24px;
+        margin-bottom: 12px;
     }
     
     .hero-content p {
-        font-size: 16px;
+        font-size: 14px;
+        margin-bottom: 20px;
     }
     
     .about-grid, .tech-grid {
@@ -2845,15 +2853,35 @@ footer {
     /* Featured Technology Responsive */
     .featured-tech {
         grid-template-columns: 1fr;
-        gap: 40px;
+        gap: 30px;
     }
     
     .featured-tech-video video {
-        min-height: 300px;
+        min-height: 200px;
+        max-height: 280px;
     }
     
     .featured-tech-features {
         grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .featured-feature {
+        padding: 16px;
+    }
+    
+    .featured-feature-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+    
+    .featured-feature-text h4 {
+        font-size: 14px;
+    }
+    
+    .featured-feature-text p {
+        font-size: 12px;
     }
     
     /* Hair Transplant Process Responsive */
@@ -3635,6 +3663,42 @@ footer {
     color: var(--text-gray);
     font-size: 14px;
     margin: 0;
+}
+
+/* Featured Technology Mobile Responsive */
+@media (max-width: 768px) {
+    .featured-tech {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .featured-tech-video video {
+        min-height: 200px;
+        max-height: 280px;
+    }
+
+    .featured-tech-features {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .featured-feature {
+        padding: 16px;
+    }
+
+    .featured-feature-icon {
+        width: 48px;
+        height: 48px;
+        font-size: 20px;
+    }
+
+    .featured-feature-text h4 {
+        font-size: 14px;
+    }
+
+    .featured-feature-text p {
+        font-size: 12px;
+    }
 }
 
 /* Hair Transplant Process Section */
